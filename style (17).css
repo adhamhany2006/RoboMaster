@@ -1,0 +1,547 @@
+/*Start Font Aosmen*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+/*End Font Aosmen*/
+*{
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box
+}
+body{
+  background: linear-gradient(#000c14, #07282f);
+  height: 100vh;
+}
+/*Start Header*/
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.container ul{
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+.container ul li a{
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: snow;
+  transition: 0.6s
+}
+.container ul li a:hover{
+  transition: 0.6s;
+  background: cyan;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+}
+.logo{
+  width: 70px;
+}
+.social{
+  display: flex;
+} 
+.social i{
+  font-size: 30px;
+  margin: 15px;
+  color: snow;
+  transition: 0.6s;
+}
+.social i:hover{
+  transition: 0.6s;
+  transform: translate(0,-15px);
+  color: cyan;
+}
+/*End Header*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+
+/*Start Section*/
+
+.contant{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  height: 28vh;
+}
+.contant .text-contant h1{
+  font-family: "Kode Mono", serif;
+  font-weight: 800;
+  font-size: 40px; 
+  width: 250px;
+  color: cyan;
+} 
+.contant .text-contant span{
+  color: snow;
+} 
+.contant .text-contant p{
+  margin: 10px;
+  width: 250px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+  margin-bottom: 25px;
+} 
+.contant .text-contant .button-contant{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contant .text-contant .button-contant .btn2{
+  border: solid 3px cyan;
+  border-radius: 25px;
+  color: cyan;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 7px;
+  transition: 0.6s;
+}
+.contant .text-contant .button-contant .btn2:hover{
+  transition: 0.6s;
+  color: black;
+  background: cyan;
+  box-shadow: 0 0 15px 0 cyan;
+}
+.contant .text-contant .button-contant h3{
+  font-weight: 800;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: cyan;
+}
+.contant .right-contant i{
+  font-size: 40px;
+  color: cyan;
+  margin: 15px;
+}
+.contant .right-contant p{
+  margin: 15px;
+  width: 150px;
+  color: snow;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px
+}
+.cont{
+  width: 450px;
+  filter: drop-shadow(0 0 15px cyan)
+}
+/*End Section*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+
+.before-services{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+.before-services .text-before h2{
+  margin: 10px;
+  font-size: 35px;
+  color: snow;
+  text-shadow: 0 0 10px cyan,
+               0 0 20px cyan,
+               0 0 30px cyan,
+               0 0 40px cyan;
+  font-family: "Kode Mono", serif;
+}
+.before-services .text-before p{
+  width: 450px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+}
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Services*/
+
+.services{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  background: #111;
+}
+.img-services{
+  width: 250px;
+  height: 320px;
+  margin: 15px;
+  background: linear-gradient(to right, #07282f,#000c14);
+  border-radius: 20px;
+  box-shadow:  0 0 10px 0 cyan
+}
+.text-srv{
+  margin: 10px;
+  font-family: "Kode Mono", serif;
+  font-weight: 800;
+  color: cyan;
+  font-style: 22px;
+}
+.textp-srv{
+  margin: 10px;
+  color: snow;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px
+}
+.srv{
+  width: 70px;
+  margin: 10px;
+}
+/*End Services*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+
+/*Start About*/
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.text-about span{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: snow;
+  font-size: 30px
+}
+.text-about h2{
+  margin: 15px;
+  color: cyan;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Kode Mono", serif;
+}
+.text-about p{
+  width: 450px;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+}
+.btn-abt{
+  margin: 15px;
+  color: cyan;
+  border: solid 3px cyan;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  border-radius: 25px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn-abt:hover{
+  transition: 0.6s;
+  color: black;
+  background: cyan;
+  box-shadow: 0 0 15px 0 cyan;
+}
+.abt{
+  width: 400px;
+  border-radius: 20px
+}
+/*End About*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Store*/
+
+.store{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  background: linear-gradient(45deg, #111,#222)
+}
+.img-store{
+  margin: 15px;
+  border: solid 3px cyan;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 0 cyan
+}
+.text-sto{
+  margin: 10px;
+  font-family: "Kode Mono", serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: cyan;
+}
+.textp-sto{
+  width: 200px;
+  margin: auto;
+  color: snow;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.price-store{
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: 800;
+  color: snow;
+  text-shadow: 0 0 10px cyan,
+               0 0 20px cyan,
+               0 0 30px cyan,
+               0 0 40px cyan;
+}
+.button-store{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-store .btn-sto1{
+  width: 100%;
+  margin: 15px;
+  color: cyan;
+  border: solid 3px cyan;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.button-store .btn-sto1:hover {
+  transition: 0.6s;
+  color: black;
+  background: cyan;
+  box-shadow: 0 0 15px 0 cyan;
+} 
+.sto{
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  transition: 0.6s;
+}
+.sto:hover{
+  transition: 0.6s;
+  transform: rotate(360deg);
+  filter: drop-shadow(0 0 10px cyan)
+}
+/*End Store*/
+
+.before-community{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+.text-before-community h2{
+  margin: 10px;
+  font-family: "Kode Mono", serif;
+  font-weight: 800;
+  color: snow;
+  text-shadow: 0 0 10px cyan,
+               0 0 20px cyan,
+               0 0 30px cyan,
+               0 0 40px cyan;
+  font-size: 30px
+}
+.text-before-community p{
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+}
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Community*/
+
+.community{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  height: 25vh;
+  background-image: url(img/community2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-community h2{
+  margin: 15px;
+  font-size: 40px;
+  color: cyan;
+  font-weight: 800;
+  font-family: "Kode Mono", serif;
+}
+.text-community p{
+  width: 450px;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 15px;
+  color: snow;
+  margin-bottom: 25px;
+}
+.btn-comm{
+  margin: 15px;
+  color: cyan;
+  border: solid 3px cyan;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  border-radius: 25px;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn-comm:hover{
+  transition: 0.6s;
+  color: black;
+  background: cyan;
+  box-shadow: 0 0 15px 0 cyan;
+}
+
+/*End Community*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Type-Robot*/
+.before-type{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+.text-before-type h2{
+  margin: 15px;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Kode Mono", serif;
+  color: snow;
+  text-shadow: 0 0 10px cyan,
+               0 0 20px cyan,
+               0 0 30px cyan,
+               0 0 40px cyan;
+}
+.text-before-type p{
+  width: 450px;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: snow;
+}
+.type-robot{
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.text-type{
+  margin: auto;
+  font-weight: 800;
+  font-family: "Kode Mono", serif;
+  font-size: 20px;
+  color: snow;
+}
+.type{
+  width: 70px;
+  margin: 10px;
+}
+
+/*End Type-Robot*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Seller*/
+
+.seller{
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  text-align: center
+}
+.text-seller h2{
+  margin: 15px;
+  font-size: 35px;
+  color: cyan;
+  font-weight: 800;
+  font-family: "Kode Mono", serif;
+}
+.text-seller p{
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: snow;
+  font-size: 22px;
+}
+/*End Seller*/
+
+/*••••••••••••••••••••••••••••••••••••*/
+/*Start Contact*/
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  background: linear-gradient(to right, #07282f,#000c14);
+}
+input, textarea{
+  padding: 7px;
+  outline: none;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+  border: solid 2px cyan;
+  background: transparent;
+  color: snow;
+}
+.text-contact h2{
+  text-align: center;
+  font-family: "Kode Mono", serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: cyan;
+}
+.btn-coc{
+  margin: 15px;
+  border: solid 3px cyan;
+  border-radius: 25px;
+  color: cyan;
+  background: transparent;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 7px;
+  transition: 0.6s;
+}
+.btn-coc:hover{
+  transition: 0.6s;
+  color: black;
+  background: cyan;
+  box-shadow: 0 0 15px 0 cyan;
+}
+.coc{
+  width: 450px;
+  filter: drop-shadow(0 0 15px cyan)
+}
+/*End Contact*/
